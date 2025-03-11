@@ -8,7 +8,7 @@
 
 3.	Descrierea aplicației 
  	
-3.1 Interfața 
+- Interfața 
 Pagina principala a interfeței, permite vizualizarea listei de contacte unde se pot accesa atât bara de căutare cât și butonoanele de adăugare de persoane, editare a contacului și stergere a acestuia.
 ![image](https://github.com/user-attachments/assets/ed99cd1c-7478-480b-8fe3-e7b2ec0c2b92)
 
