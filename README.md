@@ -20,7 +20,9 @@ During the registration process, the program will prompt the user to enter the n
 System Architecture
 
 Library Import 
+
 ![image](https://github.com/user-attachments/assets/22c198d0-c279-4632-b31d-b3f1efdb2bef)
+
   **PhoneBookApp** is a simple phonebook application built using Tkinter, a graphical user interface (GUI) library for Python. Users can add, search, edit, and delete contacts.  
 
 The application includes the following functionalities:  
