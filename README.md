@@ -19,7 +19,7 @@ During the registration process, the program will prompt the user to enter the n
 
 ![image](https://github.com/user-attachments/assets/de783b84-052f-46a6-9106-71392d315b6e)
 
-System Architecture
+- **System Architecture**
 
 Library Import: 
 
