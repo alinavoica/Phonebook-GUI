@@ -1,5 +1,6 @@
 # Phonebook-GUI
-1. The project aims to create a graphical user interface similar to a phonebook, where you can add, delete, or edit contacts. A GUI (Graphical User Interface) is a digital interface where a user interacts with graphical components such as icons, buttons, and menus.
+**1. Introduction**
+    The project aims to create a graphical user interface similar to a phonebook, where you can add, delete, or edit contacts. A GUI (Graphical User Interface) is a digital interface where a user interacts with graphical components such as icons, buttons, and menus.
 
 
 **2. Technologies Used**  
@@ -19,14 +20,13 @@ During the registration process, the program will prompt the user to enter the n
 
 System Architecture
 
-Library Import 
+Library Import: 
 
 ![image](https://github.com/user-attachments/assets/22c198d0-c279-4632-b31d-b3f1efdb2bef)
 
   **PhoneBookApp** is a simple phonebook application built using Tkinter, a graphical user interface (GUI) library for Python. Users can add, search, edit, and delete contacts.  
 
 The application includes the following functionalities:  
-
 1. **Graphical User Interface (GUI):**  
    - The application uses Tkinter to create a graphical interface with a main frame.  
    - There are three distinct frames for adding contacts, searching for them, and displaying them in a Treeview (a tree-like list) for viewing and interacting with contacts.  
