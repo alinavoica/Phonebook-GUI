@@ -10,9 +10,11 @@ For this project, we used Python as the programming language—a flexible and ea
 
 - **Interface**  
 The main interface page allows users to view the contact list, where they can access the search bar as well as buttons for adding new contacts, editing existing ones, and deleting contacts.
+
 ![image](https://github.com/user-attachments/assets/ed99cd1c-7478-480b-8fe3-e7b2ec0c2b92)
 
 During the registration process, the program will prompt the user to enter the name and phone number of the owner. During the login process, the program will check if both pieces of information have been entered, as a phone number cannot be added without specifying the owner, and vice versa. After validation, the data will be stored in the database and displayed in the contact list.
+
 ![image](https://github.com/user-attachments/assets/de783b84-052f-46a6-9106-71392d315b6e)
 
 System Architecture
