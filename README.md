@@ -2,52 +2,60 @@
 1. The project aims to create a graphical user interface similar to a phonebook, where you can add, delete, or edit contacts. A GUI (Graphical User Interface) is a digital interface where a user interacts with graphical components such as icons, buttons, and menus.
 
 
-2.	Tehnologii utilizate 
+**2. Technologies Used**  
 
-În realizarea proiectului am folosit ca limbaj de programare: Python - un limbaj flexibil, ușor de utilizat, care oferă programatorului numeroase frameworks și tools în mod gratuit. În cadrul acestuia, am folosit  biblioteca standard Tkinter ce este foarte usor de învățat pentru începători. Aceasta oferă facilități pentru construirea interfețelor grafice cu ferestre, butoane, etichete, casete de text si multe altele cu ajutorul cărora am dus la căpat cerința.
+For this project, we used Python as the programming language—a flexible and easy-to-use language that provides developers with numerous free frameworks and tools. Within Python, we utilized the standard Tkinter library, which is very beginner-friendly. Tkinter offers features for building graphical user interfaces with windows, buttons, labels, text boxes, and more, allowing us to fulfill the project requirements.  
 
-3.	Descrierea aplicației 
- 	
-- Interfața 
-Pagina principala a interfeței, permite vizualizarea listei de contacte unde se pot accesa atât bara de căutare cât și butonoanele de adăugare de persoane, editare a contacului și stergere a acestuia.
+**3. Application Description**  
+
+- **Interface**  
+The main interface page allows users to view the contact list, where they can access the search bar as well as buttons for adding new contacts, editing existing ones, and deleting contacts.
 ![image](https://github.com/user-attachments/assets/ed99cd1c-7478-480b-8fe3-e7b2ec0c2b92)
 
-În procesul de înregistrare, programul va cere utilizatorului să introducă numele și numărul de telefon specific proprietarului.  În procesul de logare programul va verifica daca sunt introduse ambele date de către utilizator,căci nu poate fi introdus un număr de telefon fără a specifica posesorul și nici invers, urmând să le introducă în baza de date și să le afișeze în lista de contacte.
+During the registration process, the program will prompt the user to enter the name and phone number of the owner. During the login process, the program will check if both pieces of information have been entered, as a phone number cannot be added without specifying the owner, and vice versa. After validation, the data will be stored in the database and displayed in the contact list.
 ![image](https://github.com/user-attachments/assets/de783b84-052f-46a6-9106-71392d315b6e)
 
-	ArhitecturaSistem 
-Importarea Bibliotecilor: 
+System Architecture
+
+Library Import 
 ![image](https://github.com/user-attachments/assets/22c198d0-c279-4632-b31d-b3f1efdb2bef)
-  Aplicația PhoneBookApp este o agendă telefonică simplă realizată cu Tkinter, o bibliotecă de interfață grafică pentru Python. Utilizatorii pot adăuga, căuta, edita și șterge contacte.
-Aplicația are următoarele funcționalități:
+  **PhoneBookApp** is a simple phonebook application built using Tkinter, a graphical user interface (GUI) library for Python. Users can add, search, edit, and delete contacts.  
 
-Acest cod implementează o simplă aplicație de gestionare a unei cărți de telefon, având următoarele fincționalități:
-1.	Interfața grafică (GUI):
-  •	Aplicația utilizează Tkinter pentru a crea o interfață grafică cu un frame principal.
-  •	Există trei cadre distincte pentru introducerea contactelor, căutarea acestora și afișarea într-un Treeview (o listă de arbore) pentru a vizualiza și interacționa cu contactele.
-2.	Adăugarea, Editarea și Ștergerea Contactelor:
-  •	Utilizatorul poate introduce un nume și un număr de telefon în câmpurile corespunzătoare și apăsa butonul "Add Contact" pentru a adăuga un nou contact.
-  •	Contactele sunt afișate în Treeview, unde utilizatorul poate selecta un contact.
-  •	Există butoane pentru editarea și ștergerea contactelor selectate.
-3.	Căutarea și Filtrarea Contactelor:
-  •	Există un câmp de căutare unde utilizatorul poate introduce un termen de căutare și lista de contacte va fi filtrată în funcție de acest termen.
-4.	Sortarea Contactelor:
-  •	Există o metodă sort_contacts care sortează contactele în funcție de nume, iar aceasta poate fi apelată prin intermediul unui buton sau altă acțiune din interfața grafică.
-5.	Salvarea și Încărcarea Contactelor din Fișier:
-  •	Contactele sunt salvate într-un fișier numit "contacts.txt" și pot fi încărcate la pornirea aplicației.
-  •	Fișierul conține perechi de nume și numere de telefon separate prin două puncte (:).
-6.	Feedback și Stare:
-  •	Există o etichetă în partea de jos a ferestrei care furnizează feedback utilizatorului cu privire la starea curentă a aplicației (de exemplu, "Contact added", "Contact deleted", "Contacts loaded", etc.).
-7.	Stilizare:
-  •	Utilizează ttk.Style pentru a aplica un aspect stilizat butoanelor și Treeview.
-8.	Modularitate:
-  •	Codul este structurat într-o clasă PhoneBookApp, ceea ce îl face ușor de înțeles și de extins.
-9.	Main Loop:
-  •	Programul principal începe și rulează bucla principală a aplicației utilizând root.mainloop().
+The application includes the following functionalities:  
 
-Concluzii:
-Această aplicație permite utilizatorului să adauge, să editeze, să șteargă și să caute contacte, și să le salveze într-un fișier. Este un exemplu simplu de o aplicație de gestionare a contactelor cu interfață grafică.
+1. **Graphical User Interface (GUI):**  
+   - The application uses Tkinter to create a graphical interface with a main frame.  
+   - There are three distinct frames for adding contacts, searching for them, and displaying them in a Treeview (a tree-like list) for viewing and interacting with contacts.  
 
+2. **Adding, Editing, and Deleting Contacts:**  
+   - Users can enter a name and phone number in the corresponding fields and click the "Add Contact" button to add a new contact.  
+   - Contacts are displayed in the Treeview, where users can select a contact.  
+   - Buttons are available for editing and deleting selected contacts.  
+
+3. **Searching and Filtering Contacts:**  
+   - A search field allows users to enter a search term, and the contact list will be filtered accordingly.  
+
+4. **Sorting Contacts:**  
+   - A method called `sort_contacts` sorts contacts by name, which can be triggered by a button or another GUI action.  
+
+5. **Saving and Loading Contacts from a File:**  
+   - Contacts are saved in a file named "contacts.txt" and can be loaded when the application starts.  
+   - The file stores name and phone number pairs, separated by a colon (:).  
+
+6. **Feedback and Status:**  
+   - A label at the bottom of the window provides feedback to the user about the application's current status (e.g., "Contact added," "Contact deleted," "Contacts loaded," etc.).  
+
+7. **Styling:**  
+   - Uses `ttk.Style` to apply a stylized appearance to buttons and the Treeview.  
+
+8. **Modularity:**  
+   - The code is structured within a `PhoneBookApp` class, making it easy to understand and extend.  
+
+9. **Main Loop:**  
+   - The program starts and runs the main application loop using `root.mainloop()`.  
+
+### **Conclusion:**  
+This application allows users to add, edit, delete, and search for contacts while also saving them to a file. It serves as a simple example of a contact management application with a graphical user interface.
 
 
 
